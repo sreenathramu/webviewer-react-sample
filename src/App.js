@@ -10,7 +10,8 @@ const App = () => {
     WebViewer(
       {
         path: '/webviewer/lib',
-        initialDoc: '/files/PDFTRON_about.pdf',
+        initialDoc: 'files/PDFTRON_about.pdf',
+        //pdftronServer: 'http://localhost:8090/'
       },
       viewer.current,
     ).then((instance) => {
@@ -26,10 +27,28 @@ const App = () => {
         rectangleAnnot.Width = 200;
         rectangleAnnot.Height = 50;
         rectangleAnnot.Author = annotManager.getCurrentUser();
+      });
 
-        annotManager.addAnnotation(rectangleAnnot);
-        // need to draw the annotation otherwise it won't show up until the page is refreshed
-        annotManager.redrawAnnotation(rectangleAnnot);
+      // Event listener logic on change of annotation
+      annotManager.on('annotationChanged', async (annotations, action) => {
+        //Java api call
+        if (action === 'add') {
+          console.log('this is a change that added annotations');
+          const xfdfString = await annotManager.getAnnotCommand();
+          console.log(xfdfString);
+        } else if (action === 'modify') {
+          console.log('this change modified annotations');
+          const xfdfString = await annotManager.getAnnotCommand();
+          console.log(xfdfString);
+        } else if (action === 'delete') {
+          console.log('there were annotations deleted');
+          const xfdfString = await annotManager.getAnnotCommand();
+          console.log(xfdfString);
+        }
+  
+        annotations.forEach((annot) => {
+          console.log('annotation page number', annot.PageNumber);
+        });
       });
     });
   }, []);
@@ -37,7 +56,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="header">React sample</div>
-      <div className="webviewer" ref={viewer}></div>
+      <div className="webviewer" ref={viewer}>//render my webviewer</div>
     </div>
   );
 };
