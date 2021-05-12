@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xfdf
+    xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+    <annots>
+        <!-- Callout XFDF with no border-->
+        <freetext page="0" width="0" rect="574.61,807.5,648.281,985.72" flags="print" name="d48ded81-914b-d340-2fea-4d035ad1d5f7" title="Guest" subject="Callout" rotation="90" date="D:20210511152628+05'30'" creationdate="D:20210511152614+05'30'" fringe="43.170999999999935,27.720000000000027,0.5,0.5" TextColor="#FF0000" FontSize="12" IT="FreeTextCallout" callout="575.11,808,614.22,831.11,617.78,910.22" head="OpenArrow">
+            <trn-custom-data bytes="{&quot;trn-wrapped-text-lines&quot;:&quot;[\&quot;Sample Callout \&quot;]&quot;}"/>
+            <contents>Sample Callout</contents>
+            <contents-richtext>
+                <body style="font:Helvetica 10pt; text-align:left; margin:3pt; line-height:11.5pt; color:#FF0000">
+                    <p>
+                        <span style="color:#ff0000">Sample Callout</span>
+                        <span/>
+                    </p>
+                </body  >
+            </contents-richtext>
+            <defaultappearance>1 0 0 rg /Helv 10 Tf</defaultappearance>
+            <defaultstyle>font: Helvetica 12pt; text-align: left; color: #FF0000</defaultstyle>
+            <apref-replace
+                xmlns="http://www.w3.org/1999/xhtml">
+            </apref-replace>
+        </freetext>
+        <!-- -->
+
+        
+        <!-- <square style="solid" width="1" color="#0000FF" creationdate="D:20210430234359+00'00" flags="print" date="D:20210430234359+00'00" name="48de188a-56a8-488d-b782-d95fe217d4e7" page="0" fringe="0.5,0.5,0.5,0.5" rect="523.474,794.998,589.992,1033.86">
+            
+            <apref y="961.72" x="826.04" gennum="0" objnum="1006" />
+        </square> -->
+        <!-- Bluebeam Annotations-->
+        <freetext rotation="90" style="solid" width="0" creationdate="D:20210430234359+00'00" flags="print" date="D:20210430234359+00'00" name="6d59741c-33ca-471f-a25b-7d5911e94816" page="0" rect="400.474,600.998,400.992,800.86">
+            <!-- <trn-custom-data bytes="{'annotation_id': '315844', 'rule_no': 'R11', 'rule_index': 'R310.2.2', 'box': 'text'}" /> -->
+            <defaultappearance>0 0 1 rg /PDFANNOTATORFONT1 10 Tf</defaultappearance>
+            <contents>Windows should have a max height of 44 inches</contents>
+            <apref y="1410.72" x="827.04" gennum="0" objnum="1007" />
+        </freetext>
+        <polyline creationdate="D:20210430234359+00'00" flags="print" date="D:20210430234359+00'00" name="c45a44ce-5fff-4466-bf6a-5f1462c0a96b" page="0" rect="523.474,794.998,589.992,1033.86">
+            <vertices>866.16,743.12;899.76,862.8;889.76,862.8;899.76,862.8;899.76,852.8</vertices>
+            <!-- <trn-custom-data bytes="{'annotation_id': '315844', 'rule_no': 'R11', 'rule_index': 'R310.2.2', 'box': 'arrow'}" /> -->
+            <apref y="900.76" x="720.2" gennum="0" objnum="1008" />
+        </polyline>
+        <freetext TextColor="#FF0000" style="solid" width="0" callout="528.974,800.498,559.876,826.95,559.876,844.45" creationdate="D:20190807085234-06'00'" flags="print" IT="FreeTextCallout" head="OpenArrow" date="D:20190807085234-06'00'" name="DNDPDXLCTYHFURZL" page="3" fringe="11.7863,49.4521,5.5,5.5" rect="523.474,794.998,589.992,1033.86" rotation="90" subject="Callout" >
+            <defaultstyle>font: Helvetica 10pt;color: #FF0000</defaultstyle>
+            <contents-richtext>
+                <body
+                    xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:contentType="text/html" xfa:APIVersion="BluebeamPDFRevu:2018" xfa:spec="2.2.0" style="font:Helvetica 10pt; text-align:left; margin:3pt; line-height:11.5pt; color:#FF0000"
+                    xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CONDITION CRAWLSPACE WITH VAPOR RETARDER ON GROUND OR PROVIDE EXTERIOR VENTILATION</p>
+                </body>
+            </contents-richtext>
+            <defaultappearance>1 0 0 rg /Helv 10 Tf</defaultappearance>
+            <contents>CONDITION CRAWLSPACE WITH VAPOR RETARDER ON GROUND OR PROVIDE EXTERIOR VENTILATION</contents>
+            <apref y="1033.86" x="523.474" gennum="0" objnum="990" />
+        </freetext>
+
+        <!-- Bluebeam - PDFTron converted Annotation-->
+        <freetext page="0" rect="63.63400000000003,708.068,119.15199999999994,935.9299999999998" flags="print" name="DNDPDXLCTYHFURZL" subject="Callout" rotation="90" date="D:20210512140629+05'30'" IT="FreeTextCallout" width="0" fringe="6.286299999999983,43.95209999999997,0,0" creationdate="D:20190807085234-06'00'" TextColor="#FF0000" FontSize="10" callout="63.63400000000003,708.0680000000002,94.536,734.5200000000001,94.536,752.02" head="OpenArrow">
+            <trn-custom-data bytes="{&quot;trn-wrapped-text-lines&quot;:&quot;[\&quot;CONDITION CRAWLSPACE WITH \&quot;,\&quot;VAPOR RETARDER ON GROUND OR \&quot;,\&quot;PROVIDE EXTERIOR VENTILATION \&quot;,\&quot;Test \&quot;]&quot;}"/>
+            <contents>CONDITION CRAWLSPACE WITH VAPOR RETARDER ON GROUND OR PROVIDE EXTERIOR VENTILATION Test</contents>
+            <contents-richtext>
+                <body style="font:Helvetica 10pt; text-align:left; margin:3pt; line-height:11.5pt; color:#FF0000">
+                    <p>
+                        <span>CONDITION CRAWLSPACE WITH VAPOR RETARDER ON GROUND OR PROVIDE EXTERIOR VENTILATION Test</span>
+                    </p>
+                </body>
+            </contents-richtext>
+            <defaultappearance>1 0 0 rg /Helv 10 Tf</defaultappearance>
+            <defaultstyle>font: Helvetica 10pt;color: #FF0000</defaultstyle>
+            <apref-replace
+                xmlns="http://www.w3.org/1999/xhtml">
+            </apref-replace>
+        </freetext>
+    </annots>
+</xfdf>
